@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body class="flex justify-center items-center h-screen flex-col">
+    <div class="flex">
+        <div class="flex justify-center flex-col items-center">
+            <h1 id="score_1_display" class="mb-2 font-semibold">Player 1 (X) score: 0</h1>
+            <input id="name_1" type="text" class="bg-neutral-200 px-4 py-3 rounded-full" placeholder="Player 1 name">
+        </div>
+        <div class="flex justify-center flex-col items-center">
+            <h1 id="score_2_display" class="mb-2 font-semibold">Player 2 (O) score: 0</h1>
+            <input id="name_2" type="text" class="bg-neutral-200 ml-4 px-4 py-3 rounded-full" placeholder="Player 2 name">
+        </div>
+    </div>
+    <div class="flex mt-4">
+        <button id="start" class="bg-neutral-200 ml-4 px-6 py-3 rounded-full text-neutral-600">Start</button>
+        <button id="restart" class="bg-neutral-200 ml-4 px-6 py-3 rounded-full text-neutral-600">Restart</button>
+    </div>
+    <div id="board" class="flex flex-wrap w-[436px] h-[436px] gap-0.5 mt-12">
+
+    </div>
+    <script src="/dist/script.js"></script>
+</body>
+</html>
